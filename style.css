@@ -1,0 +1,30 @@
+h1 {
+    background: red;
+    width: 100%;
+    font-family: "Dancing Script", cursive;
+}
+
+h2 {
+     font-family: "Black Ops One", system-ui;
+}
+
+@media (min-width: 500px) {
+    h1 {
+        background: blue;
+        width: 70%;
+    }
+}
+
+@media (min-width: 700px) {
+    h1 {
+        background: green;
+        width: 50%;
+    }
+}
+
+@media (min-width: 1000px) {
+    h1 {
+        background: purple;
+        width: 20%;
+    }
+}
